@@ -103,6 +103,10 @@ button:a {
 	text-decoration-line: none;
 }
 
+a {
+	color: #22022f;
+}
+
 a:visited {
 	color: #22022f;
 }
