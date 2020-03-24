@@ -9,6 +9,7 @@ body
 	background: #FFFFF7;
 	font-family: 'Helvetica Neue','Helvetica' , Arial, sans-serif;
 	color: #22022f;
+	margin:0;
 }
 
 #first-page #container { 
@@ -17,11 +18,11 @@ body
 }
 
 #container {
-	padding: 4rem;
-	max-width: 56rem;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+	padding: 2rem 4rem;
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 #wrap {	
@@ -29,23 +30,19 @@ body
 	max-width: 660px;
 	margin:0 auto;
 	padding:0 auto;
-
 }
 
 .site-title {
 	font-size: 1em;
 	padding: 4em 0 0.5em 0;
-	font-weight: 200;
-	text-transform: uppercase;
-	font-family:futura;
 }
 
 .site-title a {
-	font-size: 1em;
-	padding: 4em 0 0.5em 0;
-	font-weight: 200;
-	text-transform: uppercase;
-	text-decoration: none;
+	color: #700DFF;
+    text-decoration: none;
+    font-family: futura;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 h1 {
