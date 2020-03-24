@@ -5,9 +5,10 @@ html, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
 body
 {
-	background: #F3C8D2;
+	/*background: #F3C8D2;*/
+	background: #FFFFF7;
 	font-family: 'Helvetica Neue','Helvetica' , Arial, sans-serif;
-	color: #412E32;
+	color: #22022f;
 }
 
 #home-wrap {
@@ -86,6 +87,15 @@ h2 {
 	padding-bottom: 1em;
 	padding-top: 1.5em;
 	font-family:futura;
+}
+p {
+    line-height: 145%;
+    font-size: 1.24em;
+    font-family: helvetica;
+    margin: 0 0 1em 0;
+    max-width: 600px;
+    color: #22022f;
+}
 
 .right {
 	float:right;
@@ -156,13 +166,6 @@ and (max-device-width: 768px){
 	
 	.right {
 		float: left;
-	}
-	
-	#data-box {
-		margin-left: none;
-		margin-right: none;
-		border: none;
-		margin: none;
 	}
 
 }
