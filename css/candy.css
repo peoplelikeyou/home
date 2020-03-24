@@ -120,6 +120,11 @@ footer .p {
 	font-size:1em;
 }
 
+hr {
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
 @media only screen 
 and (min-device-width:481)
 and (max-device-width: 768px){
