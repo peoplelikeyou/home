@@ -72,7 +72,7 @@ p {
 	font-size: 1.24em;
 	font-family: futura;
 	margin: 0 0 1em 0;
-	max-width: 600px;
+/*	max-width: 600px;*/
 	color: #22022f;
 	letter-spacing: -.01em;
 }
@@ -102,7 +102,7 @@ button:a {
 }
 
 a:visited {
-	color: #333;
+	color: #22022f;
 }
 
 a:hover {
