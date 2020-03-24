@@ -87,13 +87,15 @@ p {
 }
 
 button {
-	font-family: futura;
+	    font-family: futura;
     font-size: 1.5em;
     background: none;
     padding: 1em;
     border: .2em solid #22022f;
     border-radius: .2em;
     font-weight: 600;
+    margin: 0 auto;
+    display: block;
 }
 }
 
