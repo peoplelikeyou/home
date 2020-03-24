@@ -44,8 +44,11 @@ body
 
 h1 {
 	font-size: 4em;
-	margin: .4em 0 0.4em 0;
-	font-weight: 200;
+    	margin: .4em 0 0.4em 0;
+	font-weight: 900;
+	font-family: futura;
+	color: orangered;
+	letter-spacing: -0.06em;
 }
 
 h1.homepage {
@@ -64,25 +67,13 @@ h1.homepage-test {
 	
 }
 
-/*.site-title {
-	font-size: 1em;
-	margin-bottom: 0.67em;
-	display: block;
-	letter-spacing: 0.11em;
-	-webkit-margin-before: 0.67em;
-	-webkit-margin-after: 0.67em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
-	font-weight: bold;
-	text-transform: capitalize;
-}
-*/
 
 .site-title {
 	font-size: 1em;
 	padding: 4em 0 0.5em 0;
 	font-weight: 200;
 	text-transform: uppercase;
+	font-family:futura;
 }
 
 .site-title a {
