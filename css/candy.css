@@ -32,10 +32,10 @@ body
 	padding:0 auto;
 }
 
-.site-title {
+/*.site-title {
 	font-size: 1em;
 	padding: 4em 0 0.5em 0;
-}
+}*/
 
 .site-title a {
 	color: #700DFF;
@@ -43,6 +43,8 @@ body
     font-family: futura;
     text-transform: uppercase;
     font-weight: 600;
+    letter-spacing: -.01em;
+    word-spacing: -0.15em;
 }
 
 h1 {
