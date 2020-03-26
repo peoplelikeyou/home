@@ -100,7 +100,7 @@ button {
 }
 }
 
-button:a {
+button a {
 	text-decoration-line: none;
 }
 
