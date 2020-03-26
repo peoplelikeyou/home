@@ -108,8 +108,8 @@ a {
 	color: #22022f;
 }
 
-a:visited {
-	color: #22022f;
+.site-title a:visited {
+	color: #700DFF;
 }
 
 a:hover {
