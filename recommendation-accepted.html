@@ -25,45 +25,9 @@ for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".
 MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
 mixpanel.init("0263eb159db1395608cbfeff9bbb9c4d")
 		</script>
-		<script>
-			
-			function getQueryParam(url, param) {
-// Expects a raw URL
-param = param.replace(/[[]/, "\[").replace(/[]]/, "\]");
-var regexS = "[\?&]" + param + "=([^&#]*)",
-    regex = new RegExp( regexS ),
-    results = regex.exec(url);
-if (results === null || (results && typeof(results[1]) !== 'string' && results[1].length)) {
-  return '';
-  } else {
-  return decodeURIComponent(results[1]).replace(/\W/gi, ' ');
-  }
-};
-function campaignParams() {
-var campaign_keywords = 'utm_source utm_medium utm_campaign utm_content utm_term'.split(' ')
-    , kw = ''
-    , params = {}
-    , first_params = {};
-var index;
-for (index = 0; index < campaign_keywords.length; ++index) {
-  kw = getQueryParam(document.URL, campaign_keywords[index]);
-  if (kw.length) {
-    params[campaign_keywords[index] + ' [last touch]'] = kw;
-  }
-}
-for (index = 0; index < campaign_keywords.length; ++index) {
-  kw = getQueryParam(document.URL, campaign_keywords[index]);
-  if (kw.length) {
-    first_params[campaign_keywords[index] + ' [first touch]'] = kw;
-  }
-}
-mixpanel.people.set(params);
-mixpanel.people.set_once(first_params);
-mixpanel.register(params);
-}
-campaignParams();
-		</script>
-				
+				<script>
+			mixpanel.track("Recommendation Accepted Page View");
+		</script>			
 	</head>
 	<body>
 		<div id="container">
